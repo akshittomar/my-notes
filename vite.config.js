@@ -34,8 +34,8 @@ export default defineConfig({
       output: {
         inlineDynamicImports: true,
         globals: {
-          'import.meta.env.REACT_APP_API_URL': JSON.stringify(process.env.REACT_APP_API_URL),
-          'import.meta.env.REACT_APP_API_KEY': JSON.stringify(process.env.REACT_APP_API_KEY),
+          
+          'import.meta.env.VITE_SOME_KEY': JSON.stringify(process.env.VITE_SOME_KEY),
         },
       },
     },
