@@ -1,0 +1,5 @@
+0. setup azure ci/cd 
+1.application is same as todo without alarm amd mailing 
+2.use redux instead of context 
+3.use firebase with  mongodb 
+4. we are done 
