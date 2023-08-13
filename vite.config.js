@@ -35,7 +35,7 @@ export default defineConfig({
         inlineDynamicImports: true,
         globals: {
           
-          'import.meta.env.VITE_SOME_KEY': JSON.stringify(process.env.VITE_SOME_KEY),
+          'import.meta.env.VITE_SOME_KEY': JSON.stringify(process.env.VITE_SOME_KEY||'ABC'),
         },
       },
     },
