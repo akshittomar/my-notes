@@ -3,7 +3,7 @@ import React from 'react'
 function Todo() {
   return (
     <div>Todo
-        {process.env.VITE_SOME_KEY}
+        {import.meta.env.VITE_SOME_KEY}
     </div> 
   )
 }
