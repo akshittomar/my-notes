@@ -63,3 +63,4 @@ jobs:
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D81356694B8E443E8730CBE89FE4B78A }}
           package: release.zip
+          env: VITE_SOME_KEY=SIYARAM
